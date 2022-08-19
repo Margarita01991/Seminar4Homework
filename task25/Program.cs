@@ -8,7 +8,7 @@ int Degree(int A, int B)
         result = result * A;                              
     }
         return result; 
-}  
+}
 Console.WriteLine("введите число A ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("введите число B ");
