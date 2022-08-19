@@ -9,5 +9,4 @@ for(int i = 1; i <= numberB; i++)
 {
     result = result * numberA;                                 
 }
-Console.Write(result);
-//Console.Write($"Результат работы программы = {result)}");
+Console.Write($"Результат работы программы = {result}");
