@@ -3,8 +3,9 @@ Console.Clear();
 Console.WriteLine("Введите число : ");
 int number = Convert.ToInt32(Console.ReadLine());
 int sum = 0;
-for (int i = number; i > 0; i = i / 10)
+for (int i = number; i != 0; i = i / 10)
 {
 sum = sum + i % 10;
+//Console.WriteLine($"Сумма цифр в числе равна {i} | {i / 10} | {i % 10} |  {sum}");
 }
 Console.WriteLine($"Сумма цифр в числе равна {sum}");
